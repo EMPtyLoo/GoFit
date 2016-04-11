@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  GoFit
+//
+//  Created by EMPty on 3/6/16.
+//  Copyright (c) 2016 EMPty. All rights reserved.
+//
+
+#ifndef GoFit_PrefixHeader_pch
+#define GoFit_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "EMPUtils.h"
+#define DrugTableViewData @"DrugTableViewData.plist"
+#define ToolTableViewData @"ToolTableViewData.plist"
+#define GymTableViewData @"GymTableViewData.plist"
+#define HomeBannerImages @"HomeBannerImages.plist"
+#define HomeNewsData @"HomeNewsData.plist"
+#define DiscoverData @"DiscoverData.plist"
+#endif
